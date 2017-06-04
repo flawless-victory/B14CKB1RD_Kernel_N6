@@ -383,7 +383,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -fno-strict-aliasing -fno-common \
 		   -Werror-implicit-function-declaration \
 		   -Wno-format-security \
-		   -Wno-declaration-after-statement -Wno-unused-variable -Wno-parentheses -Wno-misleading-indentation \
+		   -Wno-declaration-after-statement -Wno-unused-variable -Wno-parentheses -Wno-logical-not-parentheses -Wno-misleading-indentation \
 		   -Wno-array-bounds -Wno-discarded-array-qualifiers -Wno-bool-compare -Wno-tautological-compare \
 		   -mtune=cortex-a15 -mfpu=neon-vfpv4 \
 		   -Ofast \
